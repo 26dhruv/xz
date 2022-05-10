@@ -21,9 +21,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Counter />
     </div>
   );
 }
-ReactDOM.render(<Counter /> , document.getElementById('root'));
 
 export default App;
