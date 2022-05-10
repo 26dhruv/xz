@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import ReactDOM from 'react-dom/client';
+import Counter from './components/counter';
+
 
 function App() {
   return (
@@ -21,5 +24,6 @@ function App() {
     </div>
   );
 }
+ReactDOM.render(<Counter /> , document.getElementById('root'));
 
 export default App;
